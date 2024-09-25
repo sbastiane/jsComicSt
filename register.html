@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Official Marvel Comics Store - Register</title>
+    <link rel="stylesheet" href="./assets/styles.css">
+    <link rel="icon" href="./assets/img/pixelcut-export.png">
+</head>
+<body>
+    <header class="header">
+        <div class="header__container-logo">
+            <img src="./assets/img/marvel_studios_png_logo__v1__0001_by_tahfimism01_deoe0ws-fullview.png" alt="" class="container-logo__logo">
+        </div>
+    </header>
+    <div class="general-container-form">
+        <div class="container-form">
+            <form action="" class="form" id="registerForm">
+                <div class="form__container-welcome">
+                    <p class="form__hello">Hello!</p>
+                    <p class="form__please">Please enter your username and password to register.</p>
+                </div>
+                <div class="form__container-data">
+                    <div class="form__input">
+                        <label for="" class="form__input-label">User: </label>
+                        <input type="text" id="username" class="form__input-input" required>
+                    </div>
+                    <div class="form__input">
+                        <label for="" class="form__input-label">Passwords: </label>
+                        <input type="password" id="passwords" class="form__input-input" required>
+                    </div>
+                </div>
+                <button class="form__button-login" type="submit" id="registerButton">Register</button>
+                <p>Ya tienes una cuenta? <a href="login.html">Inicia sesión aquí</a></p>
+            </form>
+        </div>
+    </div>
+    <footer class="footer">
+        <nav class="footer-container-list">
+            <ul class="container-lisl__list">
+                <li class="list__item"><a href="#" class="item__link"></a>Condiciones para el uso</li>
+                <li class="list__item"><a href="#" class="item__link"></a>Política de Privacidad</li>
+                <li class="list__item"><a href="#" class="item__link"></a>Anuncios basados en intereses</li>
+                <li class="list__item"><a href="#" class="item__link"></a>Acuerdo de licencia</li>
+                <li class="list__item"><a href="#" class="item__link"></a>©2024 MARVEL</li>
+            </ul>
+        </nav>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+    <script src="./controllers/auth.js"></script>
+</body>
+</html>
